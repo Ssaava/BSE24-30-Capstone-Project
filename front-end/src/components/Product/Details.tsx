@@ -6,7 +6,8 @@ import DropDown from "@/components/DropDown.tsx";
 import CartItems from "@/components/cart/CartItems.tsx";
 
 
-// @ts-ignore
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-expect-error
 const Details = ({product})=> {
     const [productImage, setProductImage] = useState(product.image);
 
